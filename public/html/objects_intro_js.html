@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Interaction</title>
+</head>
+<body>
+	<P>See console</P>
+<script>
+
+	"use strict";
+
+	var person = {};
+
+	person.firstName = ' Miles';
+	person.lastName = ' Zander';
+	person.age = '24';
+	person.sex = 'Male';
+
+	person.sayHello = function () {
+		console.log('Hello ' + this.firstName +  this.lastName)
+};
+	alert(person.sayHello());
+
+
+
+
+
+	</script>
+</body>
+</html>

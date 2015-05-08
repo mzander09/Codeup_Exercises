@@ -1,0 +1,31 @@
+<!doctype>
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Interaction</title>
+</head>
+<body>
+    <P>See console</P>
+    <script>
+    var circle () {
+    return Math.PI * Math.pow(this.radius, 2);
+}
+	logInfo: function (round) {
+	var area = this.getArea();
+	if (round == true) {
+		area = Math.round(area);
+	}
+	console.log('Area of a circle with this radius, ' + this.radius + ', is total ' + area);
+	}
+
+	circle.logInfo(false);
+	circle.logInfo(true);
+
+
+	circle.logInfo(false);
+	circle.logInfo(true);
+
+
+    </script>
+</body>
+</html>
